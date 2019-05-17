@@ -29,6 +29,7 @@ router.get
 )
 
 // Metodo POST
+//http://localhost:2223/api/v1/todos/form
 router.post
 (
   '/form',
@@ -57,6 +58,7 @@ router.post
 })
 
 // Update
+//http://localhost:2223/api/v1/todos/1
 router.put
 (
   '/form/:id',
@@ -85,6 +87,7 @@ router.put
 })
 
 // Delete
+//http://localhost:2223/api/v1/todos/1
 router.delete
 (
   '/form/:id',

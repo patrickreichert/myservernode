@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const listaOggetti = require('../data/listaOggetti')
 
-//Query
-//http://localhost:2223/api/v1/todos/
+// Query
+// http://localhost:2223/api/v1/todos/
 router.get
 (
   '/', 
@@ -14,7 +14,7 @@ router.get
 )
 
 // Parametri
-//http://localhost:2223/api/v1/todos/1
+// http://localhost:2223/api/v1/todos/1
 router.get
 (
   '/:id',
@@ -29,7 +29,7 @@ router.get
 )
 
 // Metodo POST
-//http://localhost:2223/api/v1/todos/form
+// http://localhost:2223/api/v1/todos/form
 router.post
 (
   '/form',
@@ -58,7 +58,7 @@ router.post
 })
 
 // Update
-//http://localhost:2223/api/v1/todos/1
+// http://localhost:2223/api/v1/todos/1
 router.put
 (
   '/form/:id',
@@ -87,7 +87,7 @@ router.put
 })
 
 // Delete
-//http://localhost:2223/api/v1/todos/1
+// http://localhost:2223/api/v1/todos/1
 router.delete
 (
   '/form/:id',
